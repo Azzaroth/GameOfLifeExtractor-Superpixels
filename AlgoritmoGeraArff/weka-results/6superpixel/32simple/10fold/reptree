@@ -1,0 +1,149 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.REPTree -M 2 -V 0.001 -N 3 -S 1 -L -1
+Relation:     1
+Instances:    1000
+Attributes:   577
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+
+REPTree
+============
+
+alg_1_r_2_28 < 501
+|   alg_1_r_2_2 < 208
+|   |   alg_1_g_4_0 < 1.5
+|   |   |   alg_1_r_5_18 < 6.5
+|   |   |   |   alg_1_r_2_0 < 14.5 : montanha (49/31) [24/15]
+|   |   |   |   alg_1_r_2_0 >= 14.5
+|   |   |   |   |   alg_1_b_0_23 < 14 : cavalo (43/11) [23/9]
+|   |   |   |   |   alg_1_b_0_23 >= 14 : elefante (9/5) [5/2]
+|   |   |   alg_1_r_5_18 >= 6.5
+|   |   |   |   alg_1_r_4_0 < 71.5 : praia (40/16) [22/8]
+|   |   |   |   alg_1_r_4_0 >= 71.5
+|   |   |   |   |   alg_1_r_1_0 < 2
+|   |   |   |   |   |   alg_1_r_0_11 < 288.5 : elefante (21/7) [7/1]
+|   |   |   |   |   |   alg_1_r_0_11 >= 288.5 : praia (7/1) [2/0]
+|   |   |   |   |   alg_1_r_1_0 >= 2
+|   |   |   |   |   |   alg_1_r_2_29 < 1.5 : monumento (9/1) [9/6]
+|   |   |   |   |   |   alg_1_r_2_29 >= 1.5
+|   |   |   |   |   |   |   alg_1_r_3_4 < 51.5 : comida (3/1) [1/0]
+|   |   |   |   |   |   |   alg_1_r_3_4 >= 51.5 : onibus (4/0) [0/0]
+|   |   alg_1_g_4_0 >= 1.5
+|   |   |   alg_1_r_0_25 < 1.5
+|   |   |   |   alg_1_r_2_0 < 303
+|   |   |   |   |   alg_1_r_1_6 < 6
+|   |   |   |   |   |   alg_1_b_0_24 < 2.5
+|   |   |   |   |   |   |   alg_1_g_4_18 < 0.5 : montanha (6/1) [6/3]
+|   |   |   |   |   |   |   alg_1_g_4_18 >= 0.5 : monumento (9/2) [2/1]
+|   |   |   |   |   |   alg_1_b_0_24 >= 2.5
+|   |   |   |   |   |   |   alg_1_r_3_21 < 63.5 : praia (10/0) [10/9]
+|   |   |   |   |   |   |   alg_1_r_3_21 >= 63.5 : monumento (4/1) [1/0]
+|   |   |   |   |   alg_1_r_1_6 >= 6 : indio (23/14) [10/7]
+|   |   |   |   alg_1_r_2_0 >= 303
+|   |   |   |   |   alg_1_r_4_11 < 39
+|   |   |   |   |   |   alg_1_g_3_13 < 7 : comida (9/1) [7/3]
+|   |   |   |   |   |   alg_1_g_3_13 >= 7 : monumento (6/2) [5/3]
+|   |   |   |   |   alg_1_r_4_11 >= 39 : flor (12/2) [9/3]
+|   |   |   alg_1_r_0_25 >= 1.5
+|   |   |   |   alg_1_b_3_13 < 4.5
+|   |   |   |   |   alg_1_r_2_2 < 4 : montanha (22/9) [11/5]
+|   |   |   |   |   alg_1_r_2_2 >= 4
+|   |   |   |   |   |   alg_1_r_3_1 < 12.5 : montanha (6/3) [2/2]
+|   |   |   |   |   |   alg_1_r_3_1 >= 12.5
+|   |   |   |   |   |   |   alg_1_g_0_14 < 14 : monumento (6/1) [5/3]
+|   |   |   |   |   |   |   alg_1_g_0_14 >= 14
+|   |   |   |   |   |   |   |   alg_1_r_0_10 < 450 : onibus (13/0) [4/3]
+|   |   |   |   |   |   |   |   alg_1_r_0_10 >= 450 : monumento (2/0) [1/0]
+|   |   |   |   alg_1_b_3_13 >= 4.5
+|   |   |   |   |   alg_1_g_3_0 < 127
+|   |   |   |   |   |   alg_1_r_5_11 < 6.5
+|   |   |   |   |   |   |   alg_1_b_3_2 < 54.5 : comida (11/1) [5/2]
+|   |   |   |   |   |   |   alg_1_b_3_2 >= 54.5 : indio (4/2) [4/3]
+|   |   |   |   |   |   alg_1_r_5_11 >= 6.5
+|   |   |   |   |   |   |   alg_1_g_0_4 < 34.5
+|   |   |   |   |   |   |   |   alg_1_g_2_0 < 263 : elefante (16/3) [11/8]
+|   |   |   |   |   |   |   |   alg_1_g_2_0 >= 263 : onibus (10/2) [3/1]
+|   |   |   |   |   |   |   alg_1_g_0_4 >= 34.5
+|   |   |   |   |   |   |   |   alg_1_r_1_11 < 3.5 : monumento (5/2) [4/1]
+|   |   |   |   |   |   |   |   alg_1_r_1_11 >= 3.5 : indio (6/2) [1/0]
+|   |   |   |   |   alg_1_g_3_0 >= 127 : onibus (25/4) [8/4]
+|   alg_1_r_2_2 >= 208
+|   |   alg_1_g_3_0 < 77.5
+|   |   |   alg_1_r_0_28 < 6.5
+|   |   |   |   alg_1_b_3_3 < 30 : cavalo (36/19) [14/10]
+|   |   |   |   alg_1_b_3_3 >= 30
+|   |   |   |   |   alg_1_r_3_14 < 26.5
+|   |   |   |   |   |   alg_1_r_3_17 < 5.5 : flor (6/2) [4/2]
+|   |   |   |   |   |   alg_1_r_3_17 >= 5.5 : comida (6/1) [3/1]
+|   |   |   |   |   alg_1_r_3_14 >= 26.5 : indio (9/2) [6/3]
+|   |   |   alg_1_r_0_28 >= 6.5
+|   |   |   |   alg_1_g_3_26 < 53 : indio (30/7) [13/7]
+|   |   |   |   alg_1_g_3_26 >= 53 : comida (8/3) [6/4]
+|   |   alg_1_g_3_0 >= 77.5
+|   |   |   alg_1_r_0_25 < 2
+|   |   |   |   alg_1_b_3_1 < 5 : indio (2/1) [1/0]
+|   |   |   |   alg_1_b_3_1 >= 5 : flor (44/0) [18/2]
+|   |   |   alg_1_r_0_25 >= 2 : onibus (17/12) [5/2]
+alg_1_r_2_28 >= 501
+|   alg_1_g_0_10 < 4.5
+|   |   alg_1_r_0_15 < 21 : dinossauro (65/0) [29/1]
+|   |   alg_1_r_0_15 >= 21 : elefante (4/2) [5/2]
+|   alg_1_g_0_10 >= 4.5
+|   |   alg_1_r_3_31 < 0.5
+|   |   |   alg_1_g_4_13 < 1.5 : montanha (13/7) [4/3]
+|   |   |   alg_1_g_4_13 >= 1.5 : elefante (22/6) [14/7]
+|   |   alg_1_r_3_31 >= 0.5
+|   |   |   alg_1_r_3_26 < 37 : onibus (5/0) [2/2]
+|   |   |   alg_1_r_3_26 >= 37
+|   |   |   |   alg_1_r_3_21 < 43 : indio (5/0) [5/2]
+|   |   |   |   alg_1_r_3_21 >= 43 : comida (4/0) [3/2]
+
+Size of the tree : 89
+
+Time taken to build model: 0.79 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         461               46.1    %
+Incorrectly Classified Instances       539               53.9    %
+Kappa statistic                          0.4011
+Mean absolute error                      0.1257
+Root mean squared error                  0.2736
+Relative absolute error                 69.8411 %
+Root relative squared error             91.1916 %
+Total Number of Instances             1000     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.36      0.098      0.29      0.36      0.321      0.724    indio
+                 0.39      0.08       0.351     0.39      0.37       0.786    praia
+                 0.18      0.058      0.257     0.18      0.212      0.666    monumento
+                 0.37      0.049      0.457     0.37      0.409      0.748    onibus
+                 0.92      0.01       0.911     0.92      0.915      0.968    dinossauro
+                 0.4       0.068      0.396     0.4       0.398      0.805    elefante
+                 0.67      0.032      0.698     0.67      0.684      0.898    flor
+                 0.57      0.067      0.487     0.57      0.525      0.836    cavalo
+                 0.41      0.059      0.436     0.41      0.423      0.785    montanha
+                 0.34      0.079      0.324     0.34      0.332      0.722    comida
+Weighted Avg.    0.461     0.06       0.461     0.461     0.459      0.794
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+ 36  8  6  8  2 11  7  5  7 10 |  a = indio
+  6 39 12  1  0 13  1 11 10  7 |  b = praia
+ 13 16 18 10  0 12  1  7 14  9 |  c = monumento
+  8  4  6 37  2  3  8  7  4 21 |  d = onibus
+  1  0  1  0 92  4  0  0  2  0 |  e = dinossauro
+  7 13 12  4  1 40  0  7  9  7 |  f = elefante
+ 11  2  0  5  0  0 67  6  0  9 |  g = flor
+ 12  7  6  0  0  7  0 57  5  6 |  h = cavalo
+ 12 17  4  6  2  7  1  8 41  2 |  i = montanha
+ 18  5  5 10  2  4 11  9  2 34 |  j = comida
+

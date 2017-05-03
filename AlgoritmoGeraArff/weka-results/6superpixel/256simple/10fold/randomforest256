@@ -1,0 +1,59 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.RandomForest -I 100 -K 0 -S 1
+Relation:     1
+Instances:    1000
+Attributes:   4591
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Random forest of 100 trees, each constructed while considering 13 random features.
+Out of bag error: 0.387
+
+
+
+Time taken to build model: 2.15 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         701               70.1    %
+Incorrectly Classified Instances       299               29.9    %
+Kappa statistic                          0.6678
+Mean absolute error                      0.1304
+Root mean squared error                  0.2374
+Relative absolute error                 72.4544 %
+Root relative squared error             79.1303 %
+Total Number of Instances             1000     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.75      0.038      0.688     0.75      0.718      0.915    indio
+                 0.6       0.048      0.583     0.6       0.591      0.913    praia
+                 0.35      0.03       0.565     0.35      0.432      0.829    monumento
+                 0.66      0.023      0.759     0.66      0.706      0.95     onibus
+                 1         0.004      0.962     1         0.98       1        dinossauro
+                 0.69      0.051      0.6       0.69      0.642      0.926    elefante
+                 0.93      0.011      0.903     0.93      0.916      0.995    flor
+                 0.89      0.049      0.669     0.89      0.764      0.987    cavalo
+                 0.59      0.05       0.567     0.59      0.578      0.912    montanha
+                 0.55      0.028      0.688     0.55      0.611      0.918    comida
+Weighted Avg.    0.701     0.033      0.698     0.701     0.694      0.935
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   <-- classified as
+  75   4   2   1   1   6   0   7   3   1 |   a = indio
+   1  60   4   3   0   7   1   9  14   1 |   b = praia
+   7  13  35   2   0  12   3   8  13   7 |   c = monumento
+   6   0   3  66   0   4   2   2   7  10 |   d = onibus
+   0   0   0   0 100   0   0   0   0   0 |   e = dinossauro
+   5   5   4   2   1  69   0   7   4   3 |   f = elefante
+   1   0   0   1   0   0  93   3   1   1 |   g = flor
+   1   4   1   0   0   5   0  89   0   0 |   h = cavalo
+   5  15  10   3   0   3   0   3  59   2 |   i = montanha
+   8   2   3   9   2   9   4   5   3  55 |   j = comida
+
